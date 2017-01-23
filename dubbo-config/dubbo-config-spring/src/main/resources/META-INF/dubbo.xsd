@@ -1077,6 +1077,11 @@
 				<xsd:documentation><![CDATA[ The scan package. ]]></xsd:documentation>
 			</xsd:annotation>
 		</xsd:attribute>
+		<xsd:attribute name="version" type="xsd:string">
+			<xsd:annotation>
+				<xsd:documentation><![CDATA[ The annotation version. ]]></xsd:documentation>
+			</xsd:annotation>
+		</xsd:attribute>
 	</xsd:complexType>
 	
 	<xsd:element name="annotation" type="annotationType">
